@@ -148,7 +148,7 @@ function [dl_data_rates,ul_data_rates] = associationAlgorithm(devices,device_dl_
 
      
      
-     fprintf("\n------------ UE-eNB Association errors ------------\n\n");
+     fprintf("\n------------ UE-eNB Association results ------------\n\n");
      fprintf("Network Devices : %d\n",devices)
      fprintf("[DOWNLINK] Macro cell Connections :  %d\n",dl_macro_cell_connections);
      fprintf("[DOWNLINK] Small cell Connections : %d\n",dl_small_cell_connections);

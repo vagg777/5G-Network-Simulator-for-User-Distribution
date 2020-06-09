@@ -43,31 +43,41 @@ Image 3: The User Distribution Algorithm
 The project structure is structured as follows:
 
 `initVariables.m`
+
 The function that initialized all variables throughout the simulation (e.g number of devices, resource blocks, station radiation, carrier frequency, bandwidths, subcarriers etc). No variable is hardcoded in the simulation.
 
 `populateGrid.m`
+
 The function that creates the network scenario (see Image 2).
 
 `calculateUplinkThroughputDemands.m`
+
 The function that calculates (based on random probabilities) the throughput needs (or else, the demands in data rates) from the network users in the Uplink decoupled network.
 
 `calculateDownlinkThroughputDemands.m`
+
 The function that calculates (based on random probabilities) the throughput needs (or else, the demands in data rates) from the network users in the Downlink decoupled network.
 
 `calculateUplinkSINR.m`
+
 The function that calculates the SINR between the currently iterated Base Station (macrocell/small cell) and the user device in the Uplink decoupled network.
 
 `calculateDownlinkSINR.m`
+
 The function that calculates the SINR between the user device and the currently iterated Base Station (macrocell/small cell) in the Downlink decoupled network.
 
 `calculateUplinkRBDemands.m`
+
 The function that calculates the Resource Block demands each user creates in the network, based the user's throughput demands (calculated in `calculateUplinkThroughputDemands.m`), the bandwidth of the Resource Block and the SINR between the user and the tested Base Station (macrocell/small cell) (calculated in  `calculateUplinkSINR.m`).
 
 `calculateDownlinkRBDemands.m`
+
 The function that calculates the Resource Block demands each user creates in the network, based the user's throughput demands (calculated in `calculateDownlinkThroughputDemands.m`), the bandwidth of the Resource Block and the SINR between the user and the tested Base Station (macrocell/small cell) (calculated in  `calculateDownlinkSINR.m`).
 
 `associationAlgorithm.m`
+
 The function that begins iterating all network devices both in Downlink and Uplink networks and attemps to find the most optimal connection between the user device and the Base Station.
 
 `ModelSimulation.m`
+
 The main function of the simulation, run this function to begin the simulation.

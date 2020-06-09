@@ -1,6 +1,9 @@
 
 # MATLAB 5G Network Simulator and User Distribution Algorithm
 
+**Note**: This MATLAB simulation is part of a research paper contribution, presented in the International Symposium on Networks, Computers and Communications (ISNCC) in 2019 and later published in the IEEE platform.
+You can download the research paper from this link: https://ieeexplore.ieee.org/abstract/document/8909142.
+
 ## 1. Introduction
 
 The evolution of 5G mobile networks is expected to be comprised of small cell deployments within spitting distance of existing macrocell infrastructures. The small cells adoption, which promises to offer an economical solution for improved coverage and data rate, appears to be the key factor at improving network cooperation and system performance. In this paper, we evaluate the User-Centric model for 5G networks, targeted at improving communication between user terminal and Base Stations across all layers. 

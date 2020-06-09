@@ -1,5 +1,5 @@
 
-# Matlab 5G Network Simulator and User Distribution Algorithm
+# MATLAB 5G Network Simulator and User Distribution Algorithm
 
 ## 1. Introduction
 
